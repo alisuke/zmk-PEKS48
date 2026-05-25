@@ -45,7 +45,7 @@
 &kp ESC     &kp SEMICOLON  &kp Q         &kp P         &kp U    &kp Y                   &kp J      &kp D          &kp H  &kp G           &kp W           &kp SQT
 &kp TAB     &kp SLASH      &kp S         &kp D         &kp F    &kp G                   &kp K      &kp T          &kp N  &kp S           &kp R           &kp COMMA
 &kp LSHIFT  &kp MINUS      &kp X         &kp C         &kp V    &kp B                   &kp M      &kp L          &kp F  &kp B           &kp UP_ARROW    &kp PERIOD
-&kp LCTRL   &kp SPACE      &kp LEFT_ALT  &kp LEFT_WIN  &lt 1 A  &mt LEFT_SHIFT SPACE    &kp ENTER  &kp BACKSPACE  &kp V  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
+&kp LCTRL   &bootloader    &kp LEFT_ALT  &kp LEFT_WIN  &lt 1 A  &mt LEFT_SHIFT SPACE    &kp ENTER  &kp BACKSPACE  &kp V  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
             >;
         };
 

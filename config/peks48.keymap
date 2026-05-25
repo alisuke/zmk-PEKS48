@@ -43,18 +43,18 @@
         default_layer {
             bindings = <
 &kp ESC     &kp SEMICOLON  &kp Q         &kp P        &kp U           &kp Y        &kp J        &kp D          &kp H  &kp G           &kp W           &kp SQT
-&kp TAB     &kp SLASH      &kp S         &kp D        &kp F           &kp G        &kp K        &kp T          &kp N  &kp S           &kp R           &kp COMMA
-&kp LSHIFT  &kp MINUS      &kp X         &kp C        &kp V           &kp B        &kp M        &kp L          &kp F  &kp B           &kp UP_ARROW    &bootloader
+&kp TAB     &kp SLASH      &kp I         &kp O        &kp E           &kp A        &kp K        &kp T          &kp N  &kp S           &kp R           &kp COMMA
+&kp LSHIFT  &kp MINUS      &kp Z         &kp X        &kp C           &none        &kp M        &kp L          &kp F  &kp B           &kp UP_ARROW    &kp PERIOD
 &kp LCTRL   &kp LALT       &kp LEFT_WIN  &bootloader  &lt 1 CAPSLOCK  &kp SPACE    &lt 1 ENTER  &kp BACKSPACE  &kp V  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
             >;
         };
 
         layer_1 {
             bindings = <
-&trans       &kp PLUS      &kp MINUS  &kp N7        &kp N8        &kp N9          &kp GRAVE         &none              &kp F9  &kp F10  &kp F11  &kp F12
-&trans       &kp ASTERISK  &kp SLASH  &kp NUMBER_4  &kp N5        &kp NUMBER_6    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp F5  &kp F6   &kp F7   &kp F8
-&trans       &kp EQUAL     &trans     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp BACKSLASH     &none              &kp F1  &kp F2   &kp F3   &kp F4
-&bootloader  &trans        &trans     &kp N0        &kp PERIOD    &trans          &trans            &trans             &none   &trans   &trans   &bootloader
+&trans  &kp PLUS      &kp MINUS    &kp N7        &kp N8        &kp N9          &kp GRAVE         &none              &kp F9          &kp F10    &kp F11       &kp F12
+&trans  &kp ASTERISK  &kp SLASH    &kp NUMBER_4  &kp N5        &kp NUMBER_6    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp F5          &kp F6     &kp F7        &kp F8
+&trans  &kp EQUAL     &bootloader  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp BACKSLASH     &bootloader        &kp F1          &kp F2     &kp F3        &kp F4
+&trans  &trans        &trans       &kp N0        &kp PERIOD    &trans          &trans            &trans             &kp LEFT_ARROW  &kp RIGHT  &kp UP_ARROW  &kp DOWN_ARROW
             >;
         };
 
